@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cv Front end</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- FavIcon -->
+    <link rel="icon" type="image/svg+xml" href="img/profile.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/profile.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/profile.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/profile.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/img/profile.png" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Sergio Ottati</h1>
+      <p>Front end developer</p>
+    </header>
+
+    <nav class="navBar">
+      <a href="#miProfile">SOBRE MÍ</a>
+      <a href="#projects">PROYECTOS</a>
+      <a href="#socials">CONTACTO</a>
+    </nav>
+
+    <hr class="solid" />
+
+    <main>
+      <section class="miProfile" id="miProfile">
+        <h2>Sobre mí</h2>
+        <div class="aboutMe">
+          <img src="img/Sergio2.jpg" alt="My profile photo" />
+          <p>
+            Como va, mi nombre es Sergio Ottati, tengo 32 años y soy
+            desarrolador front end, amante de la tecnologia. Soy una persona
+            siempre dispuesta a aprender y absorver nuevos conocimientos.
+          </p>
+        </div>
+      </section>
+
+      <hr class="solid" />
+
+      <section class="cursos">
+        <h2>Algunos de mis cursos hasta el momento</h2>
+        <div class="cursosDiv">
+          <div class="cs-divs">
+            <p>Argentina Programa:</p>
+            <p>Curso #seProgramar | Octubre 2021 - Diciembre 2021</p>
+          </div>
+
+          <div class="cs-divs">
+            <p>Telecom Argentina | EducaciónIT:</p>
+            <p>Curso Desarrollo Front End React | Mayo 2022 - Noviembre 2022</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="solid" />
+
+      <section class="tecno">
+        <h2>Tecnologías</h2>
+
+        <div class="iconTecno">
+          <div>
+            <img
+              src="img/html5-icon.png"
+              alt="html5 logo"
+            />
+            <h3>HTML5</h3>
+            <img
+              src="img/css3-icon.png"
+              alt="css3 logo"
+            />
+            <h3>CSS3</h3>
+          </div>
+          <div>
+            <img src="img/git-icon.png" alt="git logo" />
+            <h3>Git</h3>
+            <img src="img/Js.png" alt="javascript logo" />
+            <h3>JavaScript</h3>
+          </div>
+          <div>
+            <img src="img/react-icon.png" alt="react logo" />
+            <h3>React</h3>
+          </div>
+        </div>
+      </section>
+
+      <hr class="solid" />
+
+      <section class="projects" id="projects">
+        <h2>Proyectos en los que estuve trabajando</h2>
+        <div class="projContainer">
+          <a href="https://todo-app-with-html-css-js-react.vercel.app/" target="_blank"
+            ><img src="img/Todo-app-with-html5-css3-js-react.jpg" alt="todo proyect"
+          /></a>
+          <a
+          href="https://interactive-card-details-form-with-html-css-js.vercel.app/"
+          target="_blank"
+          ><img
+          src="img/interactive-card-details-form-with-html-css-js.png"
+          alt="interactive card details proyect"/>
+          <a href="https://encriptador-topaz.vercel.app/" target="_blank"
+            ><img src="img/Encriptador html-css-js.png" alt="encrypter proyect"
+          /></a>
+        </div>
+      </section>
+    </main>
+
+    <hr class="solid" />
+
+    <footer id="socials" class="socials-div">
+      <h2>Contacto</h2>
+
+      <form action="php/codigo.php" method="post">
+        <label for="name">
+          Nombre
+          <input type="text" id="name" name="name" required />
+        </label>
+        <label for="email">
+          Email
+          <input type="email" id="email" name="email" required />
+        </label>
+        <label for="messeage">
+          Escriba aquí su mensaje
+          <textarea
+            name="messeage"
+            id="messeage"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </label>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div class="socials">
+        <a href="https://api.whatsapp.com/send?phone=1131175278" target="_blank"
+          ><img src="img/whatsapp.svg" alt="whatsapp number logo"
+        /></a>
+        <a href="https://www.facebook.com/sergio.ottati/" target="_blank"
+          ><img src="img/facebook-2.svg" alt="facebook"
+        /></a>
+        <a href="https://twitter.com/Caramoon1990" target="_blank"
+          ><img src="img/twitter.svg" alt="twitter"
+        /></a>
+        <a href="https://github.com/xOzymandiasx" target="_blank"
+          ><img src="img/github.png" alt="github"
+        /></a>
+        <a href="https://linkedin.com/in/sergio-ottati" target="_blank"
+          ><img src="img/linkedin-square.svg" alt="linkedin"
+        /></a>
+      </div>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
