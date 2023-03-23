@@ -37,10 +37,16 @@ h1 {
   margin: 1rem 0;
 }
 
-header, .navBar, .miProfile, .cursos, .projects, .socials-div, .tecno {
+header,
+.navBar,
+.miProfile,
+.cursos,
+.projects,
+.socials-div,
+.tecno {
   opacity: 0;
   transform: scale(0.9);
-  transition: .5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
 }
 
 header p {
@@ -110,6 +116,7 @@ h2 {
   background-color: #51efa2;
   border-radius: 25px;
   font-size: 1.7rem;
+  text-align: center;
 }
 
 .projects {
@@ -205,12 +212,14 @@ form {
 }
 
 label {
-  color: rgb(79, 79, 229);
-  font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0.3rem;
-  text-align: center;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgb(79, 79, 229);
+  font-family: Roboto, sans-serif;
 }
 
 input,
@@ -219,14 +228,6 @@ button {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-align: center;
-}
-
-.button-php {
-  height: 2rem;
-  padding: 0 1rem;
-  color: rgb(79, 79, 229);
-  border: 0.5px solid #51efa2;
-  border-radius: 25px;
 }
 
 input,

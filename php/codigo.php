@@ -43,7 +43,7 @@ p {
 
 @media screen and (max-width: 767px) {
   :root {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 </style>
